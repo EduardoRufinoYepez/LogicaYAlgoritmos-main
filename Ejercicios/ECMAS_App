@@ -1,0 +1,20 @@
+// app.js
+import { registrarDestino, mostrarItinerario } from './viajes.js';
+
+// Iniciar la aplicación (arrow function)
+const iniciarApp = () => {
+    // Ejemplo de cómo registrar destinos
+    registrarDestino("Paris", "2024-06-15", "Avión");
+    registrarDestino("Londres", "2024-07-01", "Tren");
+    registrarDestino("New York", "2024-08-20", "Avión");
+
+    // Mostrar el itinerario de los viajes
+    mostrarItinerario();
+    
+    // Opcional: Calcular costo total
+    const costoTotal = destinos.reduce((total, viaje) => total + viaje.costo, 0);
+    console.log(`Costo total de todos los viajes: $${costoTotal}`);
+};
+
+// Ejecutar la aplicación
+iniciarApp();
