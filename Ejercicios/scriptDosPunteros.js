@@ -16,7 +16,7 @@ function encontrarParInvitados(invitados) {
 }
 
 // Ejemplo de uso:
-const listaInvitados = ["Ana", "Andrés", "Carlos", "Clara", "Eva", "Juan", "Pedro"];
+const listaInvitados = ["Ana", "Carlos", "Cecilia", "Daniel", "Diana", "Eduardo"];
 const parEncontrado = encontrarParInvitados(listaInvitados);
 
 if (parEncontrado) {

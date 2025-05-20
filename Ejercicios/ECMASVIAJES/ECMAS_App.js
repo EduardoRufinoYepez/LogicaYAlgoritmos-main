@@ -2,7 +2,7 @@ import {
     destinos, 
     registrarDestino, 
     mostrarItinerario 
-} from './viajes.js';
+} from './ECMAScriptViajes.js';
 
 // Función para simular interacción con el usuario
 const iniciarApp = () => {
