@@ -1,0 +1,9 @@
+{
+  "nombre": "Tigrillo",
+  "edad": 8,
+  "estarREsterilizado": true,
+  "personaACargo": {
+    "nombre": "manila"
+  },
+  "hermanos": ["Bole", "hayh", "kia"]
+}
